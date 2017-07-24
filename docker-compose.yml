@@ -4,7 +4,7 @@ wordpress:
      - wordpress_db:mysql
     environment:
      - WORDPRESS_DB_PASSWORD=oliviabarbeau
-     - VIRTUAL_HOST=mysite.com
+     - VIRTUAL_HOST=oliviabarbeau.com
     ports:
      - "homelinux:80:80"
     volumes:
