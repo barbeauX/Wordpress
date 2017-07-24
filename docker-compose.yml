@@ -9,7 +9,7 @@ wordpress:
      - "homelinux:80:80"
     volumes:
      - ./code:/code
-     - ./html:/var/www/html/oliviabarbeau_wp
+     - ./html:/var/www/html/
 wordpress_db:
     image: mariadb
     environment:
